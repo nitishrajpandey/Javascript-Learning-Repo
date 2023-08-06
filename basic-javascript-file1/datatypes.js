@@ -53,6 +53,26 @@ const id = Symbol('123')
 console.log(id);
 
 
+// ****************************************** important ************************
+
+//primitive datatype (store in stack memories)
+let userName1="nitish";
+let userName2=userName1;
+userName2="navneet";
+console.log(userName1); //not change the value because they store copy value
+console.log(userName2);
+
+//refrence datatype (store in heap memories)
+
+let objone = {
+    email:"nitish@gmail.com",
+    age:32
+}
+ let objtwo=objone;
+ objtwo.email="navneet@gmail.com"
+ console.log(objone) //the value is change
+ console.log(objtwo) //the value is change
+
 //********************************************************************* */
 // object => refrence datatypes
 
