@@ -1,0 +1,5 @@
+*****************basic java script*****************
+
+1. let ,const,var     =>variables
+
+
