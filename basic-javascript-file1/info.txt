@@ -2,7 +2,9 @@
 
 1. let ,const,var     =>variables.js
 
-2.add use sctrict,readiability code ,datatypes ,typeof   => datatypes.js
+2.add use sctrict,readiability code ,datatypes ,typeof ,datatypes conversion,operator   => datatypes.js
+
+
 
 
 
