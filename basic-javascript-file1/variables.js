@@ -44,4 +44,29 @@ email="navneetraj@gmail.com"
 
 console.log(email);
 
+// *****************************************************************************************
 
+let address; // this take a value as a undefined
+
+// ***************************************************************************************
+
+
+// show multiple  value using console.table
+
+console.table([userID,UserNme,age,email,address])
+
+
+// output 
+
+/*
+┌─────────┬────────────────────────┐
+│ (index) │         Values         │
+├─────────┼────────────────────────┤
+│    0    │         20645          │
+│    1    │     'navneet raj'      │
+│    2    │           21           │
+│    3    │ 'navneetraj@gmail.com' │
+│    4    │       undefined        │
+└─────────┴────────────────────────┘
+
+*/
