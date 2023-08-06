@@ -49,7 +49,29 @@ console.log(typeof value2);
 
 // symbol => uniquesness
 
+const id = Symbol('123')
+console.log(id);
+
+
+//********************************************************************* */
 // object => refrence datatypes
+
+// array
+let array1=["shaktiman","padman","ironman"];
+console.log(typeof array1)   //object
+
+// object
+let obj1={
+    key1:"value"
+}
+console.log(typeof obj1);   //object
+
+//function
+function functionName(){
+
+    console.log();
+}
+console.log(typeof functionName);   //function
 
 
 // ***********************************************************************************

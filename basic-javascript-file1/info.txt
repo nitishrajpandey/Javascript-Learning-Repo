@@ -4,7 +4,7 @@
 
 2.add use sctrict,readiability code ,datatypes ,typeof ,datatypes conversion,operator   => datatypes.js
 
-
+3.comparison operator,sctrict comparision operator => comparision.js
 
 
 
