@@ -1,5 +1,8 @@
 *****************basic java script*****************
 
-1. let ,const,var     =>variables
+1. let ,const,var     =>variables.js
+
+2.add use sctrict,readiability code ,datatypes ,typeof   => datatypes.js
+
 
 
