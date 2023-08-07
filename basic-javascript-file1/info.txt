@@ -8,5 +8,7 @@
 
 4.string concationation,string introploation   => string.js
 
+5.date,datemethod,time   =>date-time.js
+
 
 
