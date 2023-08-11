@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+
+
+<script>
+
+
+    const parent=document.querySelector('.parent');
+
+//parent ki help se uske child ko access kaise karye
+
+    // console.log(parent);
+    // console.log(parent.children); //return all children of parents in htmlcollection
+    // console.log(parent.children[1]); // return the second index of childeren collection
+    // console.log(parent.children[2].innerHTML); // return innerHTMl of second index children
+
+//*************************
+
+    //loop laga kar sab children kaa inerhtml ekk sath niklte hai
+    // for (let i = 0; i <parent.children.length; i++) {
+    //     console.log(parent.children[i].innerHTML);
+        
+    // }
+
+
+//**************************
+// // change style of parents children
+// parent.children[2].style.backgroundColor="blue";
+
+// //access first elment child
+// console.log(parent.firstElementChild);
+// //access last element child
+// console.log(parent.lastElementChild);
+
+//****************************
+
+//child se parent ko kaise access karye
+const child=document.querySelector('.day');
+console.log(child);//select first child of his parents
+console.log(child.parentElement); // access the parent element
+console.log(child.nextSibling); // access the sibling(sabse karib iske)
+console.log("NODES: ", parent.childNodes); // total childnode iss parents kaaa
+</script>
+</html>
